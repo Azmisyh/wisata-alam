@@ -138,8 +138,8 @@ wisataalam/
 
 
 ### **Test Accounts**
-- **Admin**: admin / admin123
-- **Test User**: testuser / password123
+- **Admin**: admin
+- **Test User**: admin123
 
 ### Link Web
 wisataalam.page.gd
