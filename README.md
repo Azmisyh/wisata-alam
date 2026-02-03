@@ -137,10 +137,6 @@ wisataalam/
 ![Reports](screenshots/reports.png)
 
 
-### **Test Accounts**
-- **Admin**: admin
-- **Test User**: admin123
-
 ### Link Web
 wisataalam.page.gd
 
