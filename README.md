@@ -76,22 +76,6 @@ Wisata Alam Indonesia adalah website rekomendasi destinasi wisata yang memungkin
 - XSS protection (htmlspecialchars)
 - Session timeout management
 
-## Struktur Database
-
-```sql
--- Users Table
-users (id, username, password, email, full_name, role, created_at, updated_at)
-
--- Destinations Table  
-destinations (id, name, description, location, province, category, image_url, rating_avg, review_count, created_at, updated_at)
-
--- Reviews Table
-reviews (id, destination_id, user_id, rating, comment, created_at, updated_at)
-
--- Sessions Table
-sessions (id, user_id, ip_address, user_agent, payload, last_activity)
-```
-
 ## Instalasi & Setup
 
 ### **Prerequisites**
@@ -99,35 +83,10 @@ sessions (id, user_id, ip_address, user_agent, payload, last_activity)
 - Web browser (Chrome, Firefox, Safari)
 - Text editor (VS Code, Sublime Text)
 
-### **Langkah Instalasi**
 
-1. **Clone/Download project**
-   ```bash
-   git clone [repository-url]
-   cd wisataalam
-   ```
-
-2. **Database Setup**
-   - Buka phpMyAdmin (http://localhost/phpmyadmin)
-   - Buat database baru bernama `wisata_alam`
-   - Import file `database_schema.sql`
-
-3. **Konfigurasi**
-   - Edit file `config.php` sesuai kebutuhan:
-   ```php
-   define('DB_HOST', 'localhost');
-   define('DB_USER', 'root');
-   define('DB_PASS', '');
-   define('DB_NAME', 'wisata_alam');
-   ```
-
-4. **Start Server**
-   - Start Apache dan MySQL melalui XAMPP Control Panel
-   - Akses website melalui browser: `http://localhost/wisataalam/`
-
-5. **Login Akun**
-   - **Admin**: username: `admin`, password: `admin123`
-   - **User**: Daftar akun baru melalui halaman registrasi
+### **Login Akun**
+- **Admin**: username: `admin`, password: `admin123`
+- **User**: Daftar akun baru melalui halaman registrasi
 
 ## Struktur File
 
@@ -177,29 +136,6 @@ wisataalam/
 ### Laporan
 ![Reports](screenshots/reports.png)
 
-## Video Demo
-
-*(Link video demo project)*
-[Watch Project Demo](https://youtube.com/watch?v=your-video-id)
-
-## API Endpoints
-
-### **Public API**
-- `GET /` - Homepage dengan destinasi populer
-- `GET /destinations.php` - Listing destinasi dengan filter
-- `GET /destination.php?id={id}` - Detail destinasi
-
-### **Authenticated API**
-- `POST /login.php` - User login
-- `POST /register.php` - User registration
-- `POST /destination.php` - Add review (POST method)
-
-### **Admin API**
-- `GET /admin/` - Admin dashboard
-- `POST /admin/manage_destinations.php` - CRUD destinations
-- `GET /admin/get_destination.php?id={id}` - Get destination data
-- `GET /admin/reports.php?export=excel` - Export Excel
-- `GET /admin/reports.php?export=pdf` - Export PDF
 
 ## Testing
 
@@ -218,70 +154,5 @@ wisataalam/
 - **Admin**: admin / admin123
 - **Test User**: testuser / password123
 
-## Deployment
-
-### **Local Development**
-```bash
-# Start XAMPP
-# Place project in htdocs/
-# Access via http://localhost/wisataalam/
-```
-
-### **Production Deployment**
-1. Upload files to web server
-2. Create MySQL database
-3. Import database schema
-4. Update config.php with production credentials
-5. Set proper file permissions (755 for directories, 644 for files)
-
-## Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
-## Known Issues & Solutions
-
-### **Common Issues**
-1. **Database Connection Error**
-   - Check MySQL service is running
-   - Verify database credentials in config.php
-   - Ensure database exists
-
-2. **Session Issues**
-   - Check session.save_path in php.ini
-   - Verify folder permissions
-   - Clear browser cookies
-
-3. **Image Upload Issues**
-   - Check upload folder permissions
-   - Verify file size limits
-   - Ensure GD library is enabled
-
-## Future Enhancements
-
-- [ ] Google Maps integration
-- [ ] Image upload compression
-- [ ] Email notification system
-- [ ] Social media login
-- [ ] Multi-language support
-- [ ] Mobile app development
-- [ ] Advanced analytics dashboard
-- [ ] API for third-party integration
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-- **Developer**: [Your Name]
-- **Email**: [your-email@example.com]
-- **Phone**: +62 812-3456-7890
-- **GitHub**: [github-username]
-
----
 
 **© Copyright by 23552011068_Azmi Syahri Ramadhan_TIF 23 CNS A_UASWEB1**
