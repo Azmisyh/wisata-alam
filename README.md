@@ -137,22 +137,15 @@ wisataalam/
 ![Reports](screenshots/reports.png)
 
 
-## Testing
-
-### **Manual Testing Checklist**
-- [ ] User registration works correctly
-- [ ] Login/logout functionality
-- [ ] Admin can CRUD destinations
-- [ ] User can add reviews
-- [ ] Search and filter destinations
-- [ ] Export reports (Excel/PDF)
-- [ ] Responsive design on mobile
-- [ ] CSRF protection works
-- [ ] SQL injection prevention
-
 ### **Test Accounts**
 - **Admin**: admin / admin123
 - **Test User**: testuser / password123
 
+## Link Web
+wisataalam.page.gd
+
+## Nama: Azmi Syahri Ramadhan
+## NPM: 23552011068
+## Kelas: TIF23CNS A
 
 **© Copyright by 23552011068_Azmi Syahri Ramadhan_TIF 23 CNS A_UASWEB1**
