@@ -58,7 +58,7 @@ Wisata Alam Indonesia adalah website rekomendasi destinasi wisata yang memungkin
 ## Teknologi yang Digunakan
 
 ### **Backend**
-- **PHP 8.x** - Server-side programming
+- **PHP 8** - Server-side programming
 - **MySQL** - Database management
 - **PDO** - Database abstraction layer
 - **Session Management** - User authentication
