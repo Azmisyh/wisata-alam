@@ -284,4 +284,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**© Copyright by NPM_NAMA_KELAS_UASWEB1**
+**© Copyright by 23552011068_Azmi Syahri Ramadhan_TIF 23 CNS A_UASWEB1**

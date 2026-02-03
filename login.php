@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Footer -->
     <footer class="bg-dark text-white py-4 mt-5 fixed-bottom">
         <div class="container text-center">
-            <p>&copy; Copyright by NPM_NAMA_KELAS_UASWEB1</p>
+            <p>&copy; Copyright by 23552011068_Azmi Syahri Ramadhan_TIF 23 CNS A_UASWEB1</p>
         </div>
     </footer>
 

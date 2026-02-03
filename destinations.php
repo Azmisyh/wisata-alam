@@ -256,7 +256,7 @@ $categories = $stmt->fetchAll();
             </div>
             <hr class="bg-white">
             <div class="text-center">
-                <p>&copy; Copyright by NPM_NAMA_KELAS_UASWEB1</p>
+                <p>&copy; Copyright by 23552011068_Azmi Syahri Ramadhan_TIF 23 CNS A_UASWEB1</p>
             </div>
         </div>
     </footer>
