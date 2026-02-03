@@ -141,11 +141,11 @@ wisataalam/
 - **Admin**: admin / admin123
 - **Test User**: testuser / password123
 
-## Link Web
+### Link Web
 wisataalam.page.gd
 
-## Nama: Azmi Syahri Ramadhan
-## NPM: 23552011068
-## Kelas: TIF23CNS A
+### Nama: Azmi Syahri Ramadhan
+### NPM: 23552011068
+### Kelas: TIF23CNS A
 
 **© Copyright by 23552011068_Azmi Syahri Ramadhan_TIF 23 CNS A_UASWEB1**
