@@ -140,6 +140,9 @@ wisataalam/
 ### Link Web
 wisataalam.page.gd
 
+### Demo Aplikasi
+https://drive.google.com/file/d/1FOu-_PsrlNv3FgkQVjInZRRgaHDX591l/view?usp=sharing
+
 ### Nama: Azmi Syahri Ramadhan
 ### NPM: 23552011068
 ### Kelas: TIF23CNS A
